@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kotos Jitilon - Kadazan Heritage Homestay</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -25,8 +27,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect fill="%234a7c59" width="1920" height="1080"/><path fill="%23356b47" opacity="0.5" d="M0 400 Q400 350 800 420 T1600 400 Q1800 420 1920 400 V1080 H0 Z"/></svg>');
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect fill="%234a7c59" width="1920" height="1080"/><path fill="%23356b47" opacity="0.5" d="M0 400 Q400 350 800 420 T1600 400 Q1800 420 1920 400 V1080 H0 Z"/></svg>');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -52,7 +54,7 @@
             text-transform: uppercase;
         }
 
-        .hero .subtitle {            
+        .hero .subtitle {
             font-size: 1.8rem;
             margin-bottom: 1rem;
             font-weight: 300;
@@ -83,7 +85,7 @@
 
         .cta-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
         .wave {
@@ -380,7 +382,7 @@
             height: auto;
         }
 
-       .reviews-slider {
+        .reviews-slider {
             width: 100%;
             max-width: 100%;
             margin: 0;
@@ -400,14 +402,16 @@
 
         .review {
             min-width: 100%;
-            background: #2f7d4c;       /* green background */
+            background: #2f7d4c;
+            /* green background */
             color: white;
             padding: 2rem;
             /* border-radius: 12px; */
             display: flex;
             gap: 5.5rem;
             align-items: center;
-            text-align: left;          /* left aligned */
+            text-align: left;
+            /* left aligned */
         }
 
         .review img {
@@ -503,22 +507,61 @@
         }
 
         @media (max-width: 1024px) {
-            .hero h1 { font-size: 3rem; }
-            .hero .subtitle { font-size: 1.4rem; }
-            .intro-content, .slide { grid-template-columns: 1fr; }
-            .facilities-grid { grid-template-columns: repeat(2, 1fr); }
-            .experiences-grid { grid-template-columns: 1fr; }
-            .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.4rem;
+            }
+
+            .intro-content,
+            .slide {
+                grid-template-columns: 1fr;
+            }
+
+            .facilities-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .experiences-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.5rem; }
-            .section { padding: 4rem 1.5rem; }
-            .section-title { font-size: 2rem; }
-            .facilities-grid { grid-template-columns: 1fr; }
-            .contact-grid { gap: 2rem; }
-            .gallery-grid { grid-template-columns: 1fr; }
-            .gallery-item.large { grid-column: span 1; grid-row: span 1; }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .section {
+                padding: 4rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .facilities-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-grid {
+                gap: 2rem;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-item.large {
+                grid-column: span 1;
+                grid-row: span 1;
+            }
         }
 
         html {
@@ -554,17 +597,21 @@
         }
     </style>
 </head>
+
 <body>
     <section class="hero">
         <div class="hero-content">
             <h1>KOTOS JITILON</h1>
             <p class="subtitle">Experience Kadazan Heritage by the River</p>
-            <p class="description">A beautifully restored 1959 wooden house nestled beside the Moyog River, where traditional charm meets modern comfort</p>
+            <p class="description">A beautifully restored 1959 wooden house nestled beside the Moyog River, where
+                traditional charm meets modern comfort</p>
             <a href="https://www.airbnb.com/rooms/701186555191890630" class="cta-btn" target="_blank">BOOK YOUR STAY</a>
         </div>
         <div class="wave">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="wave-beige"></path>
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="wave-beige"></path>
             </svg>
         </div>
     </section>
@@ -574,11 +621,15 @@
             <div class="intro-content">
                 <div class="intro-text">
                     <h2>Welcome to Authentic Village Life</h2>
-                    <p>Step into our authentically restored heritage home and immerse yourself in Sabah's rich Kadazan culture. Located in the serene Kampung Kuai, our homestay offers a unique gateway to authentic village life, surrounded by nature's beauty and the gentle flow of the Moyog River.</p>
-                    <p>Experience the perfect blend of traditional wooden architecture, bamboo flooring, and modern amenities. Every corner tells a story of heritage, hospitality, and harmony with nature.</p>
+                    <p>Step into our authentically restored heritage home and immerse yourself in Sabah's rich Kadazan
+                        culture. Located in the serene Kampung Kuai, our homestay offers a unique gateway to authentic
+                        village life, surrounded by nature's beauty and the gentle flow of the Moyog River.</p>
+                    <p>Experience the perfect blend of traditional wooden architecture, bamboo flooring, and modern
+                        amenities. Every corner tells a story of heritage, hospitality, and harmony with nature.</p>
                 </div>
                 <div class="intro-image">
-                    <img src="https://scontent-kul3-1.xx.fbcdn.net/v/t39.30808-6/473815467_909170944533339_1714660687126078144_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IbnbYXiVYDQQ7kNvwEKNm_f&_nc_oc=AdnxeEtHD9YiS4LmYnfb8N57Ca0wXuETdgp2emGMz0wUJVDKjmPkol2M83jwGB1E7x0&_nc_zt=23&_nc_ht=scontent-kul3-1.xx&_nc_gid=sRhqrOTONqkIqzD3zsRUgA&oh=00_AfqOhZaHvaqR5sVMsQZXBE66DUkkg1sDeRbD4DtliXHtOg&oe=696675F8">
+                    <img
+                        src="https://scontent-kul3-1.xx.fbcdn.net/v/t39.30808-6/473815467_909170944533339_1714660687126078144_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IbnbYXiVYDQQ7kNvwEKNm_f&_nc_oc=AdnxeEtHD9YiS4LmYnfb8N57Ca0wXuETdgp2emGMz0wUJVDKjmPkol2M83jwGB1E7x0&_nc_zt=23&_nc_ht=scontent-kul3-1.xx&_nc_gid=sRhqrOTONqkIqzD3zsRUgA&oh=00_AfqOhZaHvaqR5sVMsQZXBE66DUkkg1sDeRbD4DtliXHtOg&oe=696675F8">
 
                 </div>
             </div>
@@ -589,7 +640,8 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Our Rooms</h2>
-                <p class="section-subtitle">Five uniquely named bedrooms, each telling a story of heritage and comfort</p>
+                <p class="section-subtitle">Five uniquely named bedrooms, each telling a story of heritage and comfort
+                </p>
             </div>
 
             <div class="slider-container">
@@ -676,8 +728,9 @@
                 </div>
 
                 <div class="slider-controls">
-                    <button class="slider-btn" onclick="changeSlide(-1)"><</button>
-                    <button class="slider-btn" onclick="changeSlide(1)">></button>
+                    <button class="slider-btn" onclick="changeSlide(-1)">
+                        << /button>
+                            <button class="slider-btn" onclick="changeSlide(1)">></button>
                 </div>
 
                 <div class="slider-dots">
@@ -709,22 +762,26 @@
             <div class="facilities-grid">
                 <div class="facility-item">
                     <h4>🏡 Hintuun - Living Room</h4>
-                    <p>A large, airy living room with authentic bamboo flooring and classic village windows. Comfortably accommodates 20-30 people for gatherings.</p>
+                    <p>A large, airy living room with authentic bamboo flooring and classic village windows. Comfortably
+                        accommodates 20-30 people for gatherings.</p>
                 </div>
 
                 <div class="facility-item">
                     <h4>🍳 Dopuan - Kitchen</h4>
-                    <p>Spacious open-layout kitchen fully equipped with rice cooker, refrigerator, cutlery, stove, and all cooking essentials.</p>
+                    <p>Spacious open-layout kitchen fully equipped with rice cooker, refrigerator, cutlery, stove, and
+                        all cooking essentials.</p>
                 </div>
 
                 <div class="facility-item">
                     <h4>🌿 Pahampag - Verandah</h4>
-                    <p>Traditional nibong tree flooring with BBQ area, perfect for outdoor entertaining and grilling.</p>
+                    <p>Traditional nibong tree flooring with BBQ area, perfect for outdoor entertaining and grilling.
+                    </p>
                 </div>
 
                 <div class="facility-item">
                     <h4>🐝 Kotos Bee Garden</h4>
-                    <p>Immersive backyard experience where guests can plant flowers that attract and support local stingless bees.</p>
+                    <p>Immersive backyard experience where guests can plant flowers that attract and support local
+                        stingless bees.</p>
                 </div>
 
                 <div class="facility-item">
@@ -739,7 +796,8 @@
 
                 <div class="facility-item">
                     <h4>🎤 BBQ & Karaoke</h4>
-                    <p>Karaoke set (RM 35/day) and BBQ equipment (RM 35/day) available. Traditional firewood BBQ upon request.</p>
+                    <p>Karaoke set (RM 35/day) and BBQ equipment (RM 35/day) available. Traditional firewood BBQ upon
+                        request.</p>
                 </div>
 
                 <div class="facility-item">
@@ -762,7 +820,8 @@
                     <div class="experience-icon">🍽️</div>
                     <div class="experience-content">
                         <h4>Authentic Kadazan Meals</h4>
-                        <p>Enjoy traditional Kadazan set breakfasts, lunches, or dinners prepared with love and local ingredients. Experience the true flavors of Sabah upon request.</p>
+                        <p>Enjoy traditional Kadazan set breakfasts, lunches, or dinners prepared with love and local
+                            ingredients. Experience the true flavors of Sabah upon request.</p>
                     </div>
                 </div>
 
@@ -770,7 +829,8 @@
                     <div class="experience-icon">🍯</div>
                     <div class="experience-content">
                         <h4>Stingless Bee Honey Demo</h4>
-                        <p>Visit our backyard apiary and discover the fascinating world of stingless bees. Learn about this precious local harvest and its traditional significance.</p>
+                        <p>Visit our backyard apiary and discover the fascinating world of stingless bees. Learn about
+                            this precious local harvest and its traditional significance.</p>
                     </div>
                 </div>
 
@@ -778,7 +838,8 @@
                     <div class="experience-icon">👨‍🍳</div>
                     <div class="experience-content">
                         <h4>Kadazan Cuisine Lessons</h4>
-                        <p>Get hands-on in the kitchen and learn to prepare Hinava (traditional raw fish salad) and Nantung (sago appetizers) from experienced local hosts.</p>
+                        <p>Get hands-on in the kitchen and learn to prepare Hinava (traditional raw fish salad) and
+                            Nantung (sago appetizers) from experienced local hosts.</p>
                     </div>
                 </div>
 
@@ -786,7 +847,8 @@
                     <div class="experience-icon">🎨</div>
                     <div class="experience-content">
                         <h4>Oil Painting with Wine</h4>
-                        <p>RM 100 per person. Each session includes A4 canvas board, oil paints, painting equipment, and a glass of wine. Create art surrounded by nature.</p>
+                        <p>RM 100 per person. Each session includes A4 canvas board, oil paints, painting equipment, and
+                            a glass of wine. Create art surrounded by nature.</p>
                     </div>
                 </div>
             </div>
@@ -802,33 +864,42 @@
 
             <div class="gallery-grid">
                 <div class="gallery-item large">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipOyFZH8s95P-_SRxqoqNmXY7kUbgJLnBTwUhQG2=s1360-w1360-h1020-rw">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipOyFZH8s95P-_SRxqoqNmXY7kUbgJLnBTwUhQG2=s1360-w1360-h1020-rw">
 
                 </div>
                 <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipPa5QvrqxWUQlF3uRAp681jkDglWuUeEDZY0pa4=s1360-w1360-h1020-rw">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipPa5QvrqxWUQlF3uRAp681jkDglWuUeEDZY0pa4=s1360-w1360-h1020-rw">
                 </div>
-                
+
                 <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipOzXsMpkvIST-FBpLgFjNoHnweis_Tk89i0TNaG=s1360-w1360-h1020-rw">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipNYy1QmOGGot9EV6MNu1aThX149YxE5SHRadPUI=s1360-w1360-h1020-rw">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipOt-4X2L6wzj1MU2Pg-6GatZokVTNwHNcdHf10_=s1360-w1360-h1020-rw">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipOzXsMpkvIST-FBpLgFjNoHnweis_Tk89i0TNaG=s1360-w1360-h1020-rw">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipMqnCxrP8vqrr6Vo1pLujQKJoj8DbiPmOTK2iO6=s1360-w1360-h1020-rw">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipNYy1QmOGGot9EV6MNu1aThX149YxE5SHRadPUI=s1360-w1360-h1020-rw">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipNLUAsQmN65bysr4b6wNo9WTIm4elsAOaGM8MNt=s1360-w1360-h1020-rw">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipOt-4X2L6wzj1MU2Pg-6GatZokVTNwHNcdHf10_=s1360-w1360-h1020-rw">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipP5p3fle16EAwL_IrMbKdSRECfMlwOkpKJJZIaF=s1360-w1360-h1020-rw">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipMqnCxrP8vqrr6Vo1pLujQKJoj8DbiPmOTK2iO6=s1360-w1360-h1020-rw">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://lh3.googleusercontent.com/p/AF1QipPhu_JawA6SAkj2ouwj42fNAwLAvo_sV_03NLx7=s1360-w1360-h1020-rw">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipNLUAsQmN65bysr4b6wNo9WTIm4elsAOaGM8MNt=s1360-w1360-h1020-rw">
+                </div>
+                <div class="gallery-item">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipP5p3fle16EAwL_IrMbKdSRECfMlwOkpKJJZIaF=s1360-w1360-h1020-rw">
+                </div>
+                <div class="gallery-item">
+                    <img
+                        src="https://lh3.googleusercontent.com/p/AF1QipPhu_JawA6SAkj2ouwj42fNAwLAvo_sV_03NLx7=s1360-w1360-h1020-rw">
                 </div>
             </div>
         </div>
@@ -841,58 +912,98 @@
                 <p class="section-subtitle">Hear from travelers who have experienced our heritage homestay</p>
             </div>
 
-        <div class="reviews-slider" id="reviewsSlider">
-            <div class="reviews-track">
-                <div class="review">
-                <img src="https://a0.muscache.com/im/pictures/user/User/original/bf23b0ee-9ed4-4372-a66a-a4c2a6077ef8.jpeg?im_w=240" alt="Guest photo">
-                <div class="review-content">
-                    <p class="review-text">Our stay at Donald's was just great!😇
-                Donald was super friendly, open and gave us the perfect stay. Although we arrived relatively late, that was no problem at all - he took a lot of time for us, which we greatly appreciated. Really special!🙏🏼
-                The accommodation is reminiscent of a hostel - ideal for meeting other travelers. The kitchen is well equipped and leaves nothing to be desired.
-                It was definitely one of the highlights of our trip. We would come back anytime and can highly recommend!
-                Thanks Donald for having us ❤️</p>
-                    <p class="review-author">Clara - Oldenburg, Germany</p>
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
+            <div class="reviews-slider" id="reviewsSlider">
+                <div class="reviews-track">
+                    <div class="review">
+                        <img src="https://a0.muscache.com/im/pictures/user/User/original/bf23b0ee-9ed4-4372-a66a-a4c2a6077ef8.jpeg?im_w=240"
+                            alt="Guest photo">
+                        <div class="review-content">
+                            <p class="review-text">Our stay at Donald's was just great!😇
+                                Donald was super friendly, open and gave us the perfect stay. Although we arrived
+                                relatively late, that was no problem at all - he took a lot of time for us, which we
+                                greatly appreciated. Really special!🙏🏼
+                                The accommodation is reminiscent of a hostel - ideal for meeting other travelers. The
+                                kitchen is well equipped and leaves nothing to be desired.
+                                It was definitely one of the highlights of our trip. We would come back anytime and can
+                                highly recommend!
+                                Thanks Donald for having us ❤️</p>
+                            <p class="review-author">Clara - Oldenburg, Germany</p>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="https://a0.muscache.com/im/pictures/user/813ec962-3d1f-4cd8-859c-6501f4069729.jpg?im_w=240"
+                            alt="Guest photo">
+                        <div class="review-content">
+                            <p class="review-text">Had a remarkable stay in Kotos Jitilon, beyond my expectations. The accommodation in a picturesque wooden house is very comfortable, surrounded by vegetation, at this season lots of mangoes and lemons. You can hear a lot of birds singing and it is possible to observe animals such as small squirrels and lizards. The place is relaxing, quite close to the city, super friendly and welcoming hosts. We shared beautiful moments together, they were always available to answer my questions and help me. They took me to visit the market and drove me to various places or learn about the local culture. Thank you again for your generosity.   There's a very cute cat and dog who will come to greet you. I recommend it without hesitating, Sabah is a beautiful area and I hope to be back soon!</p>
+                            <p class="review-author">Estelle - Henniez, Switzerland</p>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+
+                                        <div class="review">
+                        <img src="https://a0.muscache.com/im/pictures/user/User/original/17aa2dd8-d7d2-4a7f-b000-5489692fde68.jpeg?im_w=240"
+                            alt="Guest photo">
+                        <div class="review-content">
+                            <p class="review-text">远远超出预想的旅行,我们度过了非常美好的时光,Donald K和Winnie给了我无限的帮助,提前到机场等我接机,还带了我的名字牌😄,我们一起去菜市买新鲜的鱼,还带我去吃当地人吃的早餐,还带我参加了当地的婚礼,交到了很多当地的朋友还认识了他的家族,特别棒的体验,开车带我去码头买票去玩,晚上打车回来的时候我弄错了地址,打电话给Donald立刻和司机交谈并保持通话,让我觉得很安全,他们邀请我一起打麻将,认识了他的亲家公亲家母😜他的侄子过来我们住的房子里拍结婚照,我们一起合了影,这个房子周围环绕绿植,景色宜人,位置也非常棒离市区很近,我很喜欢他们和这个房子,让我对以后的生活有了想法,我会非常推荐你们来这里住,所以我打算续住到过年和他们一起,期待在这里度过一个美好的假期
+The trip was far beyond my expectations. We had a very good time. Donald K and Winnie gave me unlimited help. They went to the airport in advance to pick me up at the airport and waited for me. They also brought my name sign 😄. We went to the vegetable market to buy fresh fish together. We also took me to eat breakfast for the local people. We also took me to a local wedding. We made a lot of local friends and got to know his family. It was a great experience. </p>
+                            <p class="review-author">玉欢 - Guanghou, China</p>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+
+
+                    <div class="review">
+                        <img src="https://a0.muscache.com/im/pictures/user/65b7a43d-ca36-42ea-a5df-71b4af200349.jpg?im_w=240"
+                            alt="Guest photo">
+                        <div class="review-content">
+                            <p class="review-text">I felt so welcomed at Donald’s accommodation. He was very helpful
+                                and picked me up from the airport and offered me to buy groceries together. I am
+                                absolutely happy that I stayed at his authentic and lovely house. Thank you, Donald
+                                and Joanne, for making my first days in Borneo so wonderful.</p>
+                            <p class="review-author">Katharina</p>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="https://a0.muscache.com/im/pictures/user/User-145380879/original/679c2e70-1aad-4bad-bb8c-7419ccd4f8b4.jpeg?im_w=240"
+                            alt="Guest photo">
+                        <div class="review-content">
+                            <p class="review-text">Donald ist ein toller Gastgeber. Sehr hilfsbereit und freundlich.
+                                Die Unterkunft empfehle ich zu 100% weiter.</p>
+                            <p class="review-author">Alexander - Germany</p>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="https://a0.muscache.com/im/users/12476129/profile_pic/1393094073/original.jpg?im_w=240"
+                            alt="Guest photo">
+                        <div class="review-content">
+                            <p class="review-text">Had a fantastic time with Donald he took me food shopping and
+                                made sure all my needs were met. I felt very nice peaceful with big fridge keeping
+                                it full was easy thanks to Donald very warm understanding person. Internet was good
+                                which is major when you work remotely. He also help me receive my new phone in the
+                                mail for which I was very grateful.</p>
+                            <p class="review-author">John - Onalaska, Wisconsin</p>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+
                 </div>
-                
-                <div class="review">
-                    <img src="https://a0.muscache.com/im/pictures/user/65b7a43d-ca36-42ea-a5df-71b4af200349.jpg?im_w=240" alt="Guest photo">
-                    <div class="review-content">
-                        <p class="review-text">I felt so welcomed at Donald’s accommodation. He was very helpful and picked me up from the airport and offered me to buy groceries together. I am absolutely happy that I stayed at his authentic and lovely house. Thank you, Donald and Joanne, for making my first days in Borneo so wonderful.</p>
-                        <p class="review-author">Katharina</p>
-                        <div class="stars">⭐⭐⭐⭐⭐</div>
-                    </div>
-                    </div>
 
-                    <div class="review">
-                    <img src="https://a0.muscache.com/im/pictures/user/User-145380879/original/679c2e70-1aad-4bad-bb8c-7419ccd4f8b4.jpeg?im_w=240" alt="Guest photo">
-                    <div class="review-content">
-                        <p class="review-text">Donald ist ein toller Gastgeber. Sehr hilfsbereit und freundlich. Die Unterkunft empfehle ich zu 100% weiter.</p>
-                        <p class="review-author">Alexander - Germany</p>
-                        <div class="stars">⭐⭐⭐⭐⭐</div>
-                    </div>
-                    </div>
 
-                    <div class="review">
-                    <img src="https://a0.muscache.com/im/users/12476129/profile_pic/1393094073/original.jpg?im_w=240" alt="Guest photo">
-                    <div class="review-content">
-                        <p class="review-text">Had a fantastic time with Donald he took me food shopping and made sure all my needs were met.  I felt very nice peaceful with big fridge keeping it full was easy thanks to Donald very warm understanding person. Internet was good which is major when you work remotely. He also help me receive my new phone in the mail for which I was very grateful.</p>
-                        <p class="review-author">John - Onalaska, Wisconsin</p>
-                        <div class="stars">⭐⭐⭐⭐⭐</div>
-                    </div>
-                    </div>
             </div>
-        </div>
-
-
-        </div>
     </section>
 
     <section class="section section-dark">
         <div class="container">
             <div class="contact-content">
                 <h2 class="section-title" style="color: white;">Get In Touch</h2>
-                <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">Ready to experience authentic Kadazan heritage? Book your stay with us today.</p>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">Ready to experience authentic Kadazan
+                    heritage? Book your stay with us today.</p>
 
                 <div class="contact-grid">
                     <div class="contact-item">
@@ -911,7 +1022,8 @@
                     </div>
                 </div>
 
-                <a href="https://www.airbnb.com/rooms/701186555191890630" class="cta-btn" target="_blank">BOOK ON AIRBNB</a>
+                <a href="https://www.airbnb.com/rooms/701186555191890630" class="cta-btn" target="_blank">BOOK ON
+                    AIRBNB</a>
             </div>
         </div>
     </section>
@@ -921,55 +1033,56 @@
         <p style="margin-top: 1rem; font-size: 0.9rem;">Experience authentic Kadazan culture by the Moyog River</p>
     </footer>
 
-	<script>
-	    let currentSlide = 0;
-	    const slides = document.querySelectorAll('.slide');
-	    const dots = document.querySelectorAll('.dot');
-	    const totalSlides = slides.length;
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        const totalSlides = slides.length;
 
-	    function showSlide(n) {
-	        if (n >= totalSlides) currentSlide = 0;
-	        if (n < 0) currentSlide = totalSlides - 1;
-	        
-	        const slider = document.getElementById('roomSlider');
-	        slider.style.transform = `translateX(-${currentSlide * 100}%)`;
-	        
-	        dots.forEach((dot, index) => {
-	            dot.classList.toggle('active', index === currentSlide);
-	        });
-	    }
+        function showSlide(n) {
+            if (n >= totalSlides) currentSlide = 0;
+            if (n < 0) currentSlide = totalSlides - 1;
 
-	    function changeSlide(n) {
-	        currentSlide += n;
-	        showSlide(currentSlide);
-	    }
+            const slider = document.getElementById('roomSlider');
+            slider.style.transform = `translateX(-${currentSlide * 100}%)`;
 
-	    function goToSlide(n) {
-	        currentSlide = n;
-	        showSlide(currentSlide);
-	    }
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+            });
+        }
 
-	    // Initialize the slider
-	    showSlide(currentSlide);
+        function changeSlide(n) {
+            currentSlide += n;
+            showSlide(currentSlide);
+        }
 
-	    // Auto-advance slider every 5 seconds
-	    setInterval(() => {
-	        changeSlide(1);
-	    }, 5000);
+        function goToSlide(n) {
+            currentSlide = n;
+            showSlide(currentSlide);
+        }
+
+        // Initialize the slider
+        showSlide(currentSlide);
+
+        // Auto-advance slider every 5 seconds
+        setInterval(() => {
+            changeSlide(1);
+        }, 5000);
 
         let reviewIndex = 0;
         const reviews = document.querySelectorAll('.reviews-track .review');
         const reviewsTrack = document.querySelector('.reviews-track');
 
         function showReview(i) {
-        reviewIndex = (i + reviews.length) % reviews.length;
-        reviewsTrack.style.transform = `translateX(-${reviewIndex * 100}%)`;
+            reviewIndex = (i + reviews.length) % reviews.length;
+            reviewsTrack.style.transform = `translateX(-${reviewIndex * 100}%)`;
         }
 
         setInterval(() => {
-        showReview(reviewIndex + 1);
+            showReview(reviewIndex + 1);
         }, 5000);
 
-	</script>
+    </script>
 </body>
+
 </html>
